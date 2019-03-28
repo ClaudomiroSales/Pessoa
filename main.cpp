@@ -7,7 +7,8 @@ int main(int argc, char **argv)
 {
     Pessoa gilmo;
     
-	cout << "Aloh Pessoa \n\n";
+	cout << "\nOutra pessoa \n";
+    Pessoa gisele;
     
     
 	return 0;
