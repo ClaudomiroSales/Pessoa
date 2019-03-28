@@ -9,3 +9,10 @@ Pessoa::~Pessoa()
 {
 }
 
+bool Pessoa::verifyCPF( int cpfTest )
+{
+    if ( cpfTest % 2 == 0 )
+        return true;
+    else
+        return false;
+}

@@ -9,6 +9,13 @@ class Pessoa
 public:
     Pessoa();
     ~Pessoa();
+    
+    //Método static
+    static bool verifyCPF( int );
+
+private:
+    
+    
 
 };
 

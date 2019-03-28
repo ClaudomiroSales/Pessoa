@@ -5,10 +5,16 @@ using std::cout;
 
 int main(int argc, char **argv)
 {
-    Pessoa gilmo;
+    //Pessoa gilmo;
+    int cpfCadastrar = 124;
+    if( Pessoa::verifyCPF( cpfCadastrar ) )
+        cout << "CPF valido.\n";
+    else
+        cout << "CPF invalido\n";
     
-	cout << "Aloh Pessoa \n\n";
+    //if( gilmo.verifyCPF( cpfCadastrar ) )
+    //    cout << "Tambem pode ser chamado por um objeto.\n";
     
     
-	return 0;
+    return 0;
 }
