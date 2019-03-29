@@ -4,6 +4,8 @@
 #include <iostream>
 using std::cout;
 
+
+
 class Pessoa
 {
 public:
@@ -15,7 +17,11 @@ public:
 
 private:
     
+    //Atributo noStatic
+    int regGeral;
     
+    //Atributo static
+    static int numCPFCadastrados;
 
 };
 
